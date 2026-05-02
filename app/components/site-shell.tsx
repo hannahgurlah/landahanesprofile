@@ -78,6 +78,10 @@ export function SiteShell({
             ))}
           </nav>
 
+          <a className="subpage-cta" href="/assets/LandahanES-CITIZENS-CHARTER.pdf" target="_blank">
+            Citizen&apos;s Charter
+          </a>
+
           <a className="subpage-cta" href="https://www.facebook.com/weLoveLandahanES" target="_blank">
             Facebook
           </a>

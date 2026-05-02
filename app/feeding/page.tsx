@@ -29,6 +29,7 @@ const feedingReports = [
   { title: "Baseline Report", href: "/assets/report/baseline.pdf" },
   { title: "Midline Report", href: "/assets/report/midline.pdf" },
   { title: "Endline Report", href: "/assets/report/endline.pdf" },
+  { title: "LGU Feeding Program ", href: "/assets/report/lgu-feeding-report.pdf" },
 ];
 
 export default function FeedingPage() {
