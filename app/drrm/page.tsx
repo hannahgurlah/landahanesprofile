@@ -1,31 +1,39 @@
 import { SiteShell } from "../components/site-shell";
+import { ContingencyPlanTabs } from "./contingency-plan-tabs";
 
 const siteContext = [
-  "The school is located in a remote mountain area of Toledo City.",
-  "The campus is near the barangay hall, which can support coordination and temporary response activities.",
-  "The area has many trees, which provide shade but also increase falling-branch and blocked-path risks during severe weather.",
-  "Access roads may become difficult during heavy rain, landslides, and emergencies that affect transport.",
+  "The school is located in a remote mountainous area of Toledo City.",
+  "The school may be affected by strong winds, heavy rain, flooding, falling branches, landslides, and blocked access roads.",
+  "Evacuation decisions must prioritize movement away from unstable slopes, large trees, damaged structures, and slippery pathways.",
+  "The school coordinates with barangay officials, parents, health workers, and rescue units during mountain-area emergencies.",
 ];
 
 const planningPriorities = [
   "Protect learners, teachers, and visitors before property.",
-  "Use the barangay hall as a nearby coordination and communication point when needed.",
-  "Keep evacuation routes clear from trees, loose materials, and obstructions.",
-  "Coordinate immediately with parents, barangay officials, and health or rescue units during major incidents.",
+  "Monitor rainfall, strong wind, landslide, and road safety advisories before making school decisions.",
+  "Keep evacuation routes to safe open areas clear, visible, and known to learners and staff.",
+  "Coordinate immediately with parents, barangay officials, health workers, and rescue units during major incidents.",
+];
+
+const depedOrderActions = [
+  "Organize a student-led school watching activity during the opening month of the school year.",
+  "Include learner representatives from different grade levels, sections, and school groups.",
+  "Use the school watching checklist to identify hazards, unsafe areas, and needed safety improvements.",
+  "Update and post hazard maps in visible school areas so learners, staff, and visitors can use them during preparedness activities.",
 ];
 
 const contingencyPlans = [
   {
     title: "Fire",
     risk:
-      "Classrooms, storage rooms, electrical lines, and kitchen or canteen areas may trigger fire, while nearby trees and remote access can slow response time.",
+      "Classrooms, storage rooms, electrical lines, and kitchen or canteen areas may trigger fire, while dry vegetation, nearby trees, and delayed responder access can make control more difficult in a mountain setting.",
     preparedness: [
       "Install and inspect fire extinguishers, alarms, and electrical connections regularly.",
       "Assign fire marshals and conduct exit drills every quarter.",
-      "Keep dry leaves, paper waste, and flammable items away from buildings.",
+      "Keep paper waste, cleaning materials, fuel, and other flammable items away from classrooms and cooking areas.",
     ],
     response: [
-      "Sound the alarm and evacuate learners to the designated open assembly area away from trees and smoke.",
+      "Sound the alarm and evacuate learners to the designated open assembly area away from smoke, electrical lines, and cooking areas.",
       "Switch off electricity when safe to do so and use extinguishers only for controllable fires.",
       "Inform the barangay hall and fire responders immediately while accounting for all learners.",
     ],
@@ -37,115 +45,58 @@ const contingencyPlans = [
   {
     title: "Typhoon",
     risk:
-      "Strong winds and heavy rain can damage roofs, topple branches, cut electricity, and isolate the school because of its mountain location.",
+      "Strong winds and heavy rain can damage roofs, topple trees, block mountain roads, cut electricity, and make travel unsafe for learners and staff.",
     preparedness: [
       "Monitor PAGASA advisories and decide early on class suspension or early dismissal.",
-      "Trim tree branches near classrooms, walkways, and power lines.",
+      "Secure roofs, windows, learning materials, records, and loose outdoor items before severe weather arrives.",
       "Store learning materials, records, and devices in elevated and protected locations.",
     ],
     response: [
       "Suspend outdoor movement and transfer learners away from windows and light structures.",
-      "Coordinate with the barangay hall for weather updates, shelter support, and transport concerns.",
-      "Release learners only through safe, documented parent or guardian pick-up procedures when travel is possible.",
+      "Move learners away from trees, unstable slopes, and areas with possible falling debris.",
+      "Release learners only through safe, documented parent or guardian pick-up procedures when roads and footpaths are passable.",
     ],
     recovery: [
-      "Check for roof damage, fallen trees, and unsafe paths before reopening.",
-      "Resume classes only after campus hazards are cleared.",
+      "Check for roof damage, fallen trees, damaged wiring, muddy walkways, and unsafe paths before reopening.",
+      "Resume classes only after campus hazards are cleared and access routes are safe.",
     ],
   },
   {
     title: "Earthquake",
     risk:
-      "Mountain terrain, falling debris, and unstable slopes can make evacuation more difficult after ground shaking.",
+      "Ground shaking can damage buildings and utilities, while steep terrain and unstable slopes may increase the risk of landslides and falling debris.",
     preparedness: [
       "Teach all learners to duck, cover, and hold.",
       "Secure cabinets, shelves, fans, and heavy objects inside classrooms.",
-      "Mark open evacuation areas away from buildings, trees, poles, and possible slope failure zones.",
+      "Mark open evacuation areas away from trees, posts, retaining walls, and possible slope failure zones.",
     ],
     response: [
       "During shaking, instruct everyone to duck, cover, and hold until the movement stops.",
-      "Evacuate calmly to open safe areas and avoid standing near trees, walls, or power lines.",
-      "Check injuries, account for learners, and prepare for aftershocks.",
+      "Evacuate calmly to open safe areas and avoid buildings, walls, trees, posts, and electrical lines.",
+      "Check injuries, account for learners, prepare for aftershocks, and watch for ground cracks or slope movement.",
     ],
     recovery: [
-      "Inspect buildings and hillside conditions before allowing re-entry.",
+      "Inspect buildings, electrical systems, water sources, and evacuation routes before allowing re-entry.",
       "Refer injured persons to responders or nearby health units immediately.",
     ],
   },
   {
     title: "Landslide",
     risk:
-      "Because the school is in a remote mountain area, prolonged rain can weaken slopes, block access roads, and threaten structures near elevated ground.",
+      "Continuous rainfall, earthquakes, and unstable slopes can trigger landslides that block access roads, damage school grounds, and threaten nearby structures.",
     preparedness: [
-      "Identify slopes, cracks, leaning trees, and drainage issues near the campus.",
-      "Restrict activity in areas close to steep embankments during and after heavy rain.",
-      "Coordinate with barangay officials for early warnings and route monitoring.",
+      "Identify high-risk slopes, soil cracks, leaning trees, and erosion-prone sections near the school.",
+      "Post clear evacuation maps showing the safest routes away from slopes and unstable ground.",
+      "Coordinate with barangay officials on rainfall monitoring and landslide warning signs.",
     ],
     response: [
-      "Evacuate immediately once ground movement, unusual sounds, or sudden soil cracking is observed.",
-      "Move learners to the safest identified area or to the barangay hall if campus access remains safe.",
-      "Stop all travel on roads or paths suspected to be unstable.",
+      "Evacuate immediately once soil movement, unusual sounds, falling rocks, or widening ground cracks are observed.",
+      "Do not allow learners or staff to stay near slopes, embankments, or tree lines during suspected slope failure.",
+      "Remain in the safe area until authorities declare that the threat has ended.",
     ],
     recovery: [
-      "Wait for local authorities to assess slope safety.",
-      "Reopen only after access routes and school grounds are cleared for use.",
-    ],
-  },
-  {
-    title: "Flood",
-    risk:
-      "Even in elevated areas, intense rain can cause runoff, drainage overflow, slippery walkways, and sudden water accumulation in low points or access roads.",
-    preparedness: [
-      "Keep canals, drainage lines, and water pathways free from leaves and debris from surrounding trees.",
-      "Identify low-lying areas that should be avoided during downpours.",
-      "Raise records, books, and electrical equipment above floor level.",
-    ],
-    response: [
-      "Stop movement through flooded or fast-moving water immediately.",
-      "Transfer learners to higher and safer parts of the campus or to the barangay hall if advised.",
-      "Cut power in affected areas when flooding threatens electrical safety.",
-    ],
-    recovery: [
-      "Clean and disinfect flooded rooms before use.",
-      "Check water damage and restore classes only after sanitation and safety checks.",
-    ],
-  },
-  {
-    title: "Vehicular Accidents",
-    risk:
-      "Remote roads, steep terrain, and limited transport access increase the risk of school-related vehicular incidents during travel, field activities, or student pick-up.",
-    preparedness: [
-      "Maintain a school transport contact list, emergency hotline numbers, and parent communication records.",
-      "Brief drivers and staff on mountain road precautions and weather-related travel rules.",
-      "Ensure first aid kits and emergency contact sheets are available during trips.",
-    ],
-    response: [
-      "Give first aid, secure the scene, and call health responders or barangay authorities immediately.",
-      "Inform school leadership and parents as soon as verified information is available.",
-      "Avoid moving injured persons unless there is immediate danger.",
-    ],
-    recovery: [
-      "Document the incident and review transport procedures.",
-      "Provide psychosocial support when learners or staff are affected.",
-    ],
-  },
-  {
-    title: "Storm Surge",
-    risk:
-      "Although the campus is in a mountain area, storm surge may still disrupt school operations by affecting families, transport routes, supply delivery, and wider Toledo City emergency conditions.",
-    preparedness: [
-      "Monitor city-wide advisories, not only school-site conditions.",
-      "Identify learners and staff whose homes or travel routes are vulnerable to coastal flooding.",
-      "Prepare remote communication and class suspension notices early.",
-    ],
-    response: [
-      "Suspend school operations when coastal emergency warnings affect community mobility or safety.",
-      "Coordinate with barangay and city authorities for verified information before allowing travel.",
-      "Keep communication lines open for affected families needing assistance or updates.",
-    ],
-    recovery: [
-      "Confirm that staff, learners, and routes are safe before resuming classes.",
-      "Adjust schedules and support affected families after the event.",
+      "Return to campus only after official clearance from local authorities.",
+      "Check classrooms, access roads, water sources, sanitation facilities, and electrical systems before reuse.",
     ],
   },
   {
@@ -170,16 +121,16 @@ const contingencyPlans = [
   {
     title: "El Niño",
     risk:
-      "Extended heat and water shortage can affect hydration, classroom comfort, sanitation, and vegetation around the school grounds.",
+      "Extended heat, water shortage, and dry vegetation can affect hydration, classroom comfort, sanitation, and fire risk in a mountainous school setting.",
     preparedness: [
       "Store safe water and review conservation measures for toilets, handwashing, and cleaning.",
       "Adjust outdoor schedules to avoid extreme midday heat.",
-      "Inspect dry grass, leaf buildup, and tree conditions that may raise fire risk.",
+      "Coordinate with local officials for safe water support if springs, tanks, or supply lines become affected.",
     ],
     response: [
       "Reduce strenuous outdoor activity and monitor learners for dehydration or heat stress.",
       "Use shaded and well-ventilated rooms whenever possible.",
-      "Coordinate with the barangay hall if water supply or local fire risk becomes critical.",
+      "Coordinate with the barangay or city offices if water supply becomes critical.",
     ],
     recovery: [
       "Restore normal schedules only when heat conditions are manageable.",
@@ -193,16 +144,53 @@ export default function DrrmPage() {
     <SiteShell
       eyebrow="Student Safety"
       title="School DRRM"
-      description="This DRRM page outlines hazard-specific contingency plan articles for Landahan Elementary School, a school in a remote mountain area of Toledo City."
+      description="This DRRM page outlines hazard-specific contingency plan articles for Landahan Elementary School, a remote mountainous school in Toledo City."
     >
+
       <section className="content-grid section-space">
         <article className="panel panel-story">
-          <p className="eyebrow">Campus Risk Context</p>
-          <h2>Planning for a mountain-area school environment.</h2>
+          <p className="eyebrow">Policy Basis</p>
+          <h2>DepEd Order No. 23, s. 2015</h2>
+          <p>
+            DepEd Order No. 23, s. 2015, titled Student-Led School Watching and
+            Hazard Mapping, guides public schools in involving learners in
+            identifying hazards, understanding risks, and helping build a
+            stronger culture of safety in school.
+          </p>
+          <p>
+            For a remote mountainous school, this means learners should help
+            observe and map risks such as slippery paths, unstable slopes,
+            falling-branch zones, drainage concerns, electrical hazards,
+            evacuation routes, and other conditions that may affect school
+            safety.
+          </p>
+        </article>
+
+        <aside className="panel panel-points">
+          <p className="eyebrow">School Application</p>
+          <ul>
+            {depedOrderActions.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </aside>
+      </section>
+
+      <section style={{ alignItems: "center", marginBottom: 40, marginTop: 10 }}>
+        <h3 style={{ marginTop: 40, fontSize: '24px' }}>DRRM Hazard Map</h3>
+        <img style={{ border: "5px solid #d0d0d0" }} src="/assets/images/drrm-hazardmap.jpg" alt="DRRM Hazard Map" />
+        <h3 style={{ marginTop: 40, fontSize: '24px' }}>DRRM Evacuation Map</h3>
+        <img style={{ border: "5px solid #d0d0d0" }} src="/assets/images/drrm-evacuationmap.jpg" alt="DRRM Evacuation Map" />
+      </section>
+
+      <section className="content-grid section-space">
+        <article className="panel panel-story">
+          <p className="eyebrow">School Risk Context</p>
+          <h2>Planning for a remote mountainous school environment.</h2>
           <p>
             The school&apos;s location requires contingency planning that considers
-            difficult access roads, severe weather exposure, nearby trees, and
-            close coordination with barangay officials.
+            severe weather exposure, road inaccessibility, landslides, flooding,
+            falling debris, and close coordination with barangay officials.
           </p>
           <p>
             Each response article below is designed to protect learners and
@@ -221,9 +209,11 @@ export default function DrrmPage() {
         </aside>
       </section>
 
+
+
       <section className="programs">
         <div className="section-heading">
-          <p className="eyebrow">Core Planning Principles</p>
+          <h4 className="eyebrow" style={{ marginTop: 40, fontSize: '24px' }}>Core Planning Principles</h4>
           <h2>Shared actions that guide every emergency response.</h2>
         </div>
 
@@ -242,49 +232,25 @@ export default function DrrmPage() {
 
       <section className="plan-articles">
         <div className="section-heading">
-          <p className="eyebrow">Contingency Plan Articles</p>
+          <p className="eyebrow" style={{ marginTop: 40, fontSize: '24px' }}>Contingency Plan</p>
           <h2>Hazard-specific response plans for the school community.</h2>
         </div>
 
-        <div className="article-grid">
-          {contingencyPlans.map((plan) => (
-            <article key={plan.title} className="plan-article">
-              <p className="eyebrow">Article</p>
-              <h3>{plan.title}</h3>
-              <p className="plan-risk">
-                <strong>Risk Context:</strong> {plan.risk}
-              </p>
-
-              <div className="plan-section">
-                <h4>Preparedness</h4>
-                <ul>
-                  {plan.preparedness.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="plan-section">
-                <h4>Immediate Response</h4>
-                <ul>
-                  {plan.response.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="plan-section">
-                <h4>Recovery</h4>
-                <ul>
-                  {plan.recovery.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            </article>
-          ))}
-        </div>
+        <ContingencyPlanTabs plans={contingencyPlans} />
       </section>
-    </SiteShell>
+
+      <section style={{ alignItems: "center", marginBottom: 40, marginTop: 10 }}>
+        {/* <h3 style={{ marginTop: 40, fontSize: '24px' }}>NATIONWIDE SIMULTANEOUS EARTHQUAKE DRILL</h3> */}
+        <p style={{ fontSize: "18px" }}><strong>NATIONWIDE SIMULTANEOUS EARTHQUAKE DRILL</strong> <br />1st Quarter | March 13, 2026</p>
+        <img style={{ border: "5px solid #d0d0d0" }} src="/assets/images/landahan.png" alt="Earthquake Drill" />
+      </section>
+
+
+
+      <section style={{ alignItems: "center" }}>
+        <h3 style={{ marginTop: 40, fontSize: '24px' }}>Emergency Contact Numbers</h3>
+        <img style={{ border: "5px solid #d0d0d0" }} src="/assets/images/emergency-contact-numbers.jpg" alt="Safety Guidelines" />
+      </section>
+    </SiteShell >
   );
 }

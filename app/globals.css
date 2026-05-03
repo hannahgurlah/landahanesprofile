@@ -500,6 +500,94 @@ a {
   border-color: rgba(15, 118, 110, 0.4);
 }
 
+.plan-tabs {
+  display: grid;
+  gap: 18px;
+}
+
+.plan-tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.plan-tab-list button {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.plan-tab-list button:hover,
+.plan-tab-list button:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.plan-tab-list button.active {
+  border-color: var(--accent-deep);
+  background: var(--accent-deep);
+  color: #fff;
+}
+
+.plan-article {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 24px;
+  background: var(--surface);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+}
+
+.plan-article h3,
+.plan-section h4 {
+  margin-top: 0;
+}
+
+.plan-article h3 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.plan-risk,
+.plan-section li {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.plan-section {
+  margin-top: 18px;
+}
+
+.plan-tab-sections {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.plan-section h4 {
+  margin-bottom: 10px;
+  color: var(--accent-deep);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.plan-section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.plan-section li+li {
+  margin-top: 8px;
+}
+
 .plan-articles {
   margin-top: 44px;
 }
