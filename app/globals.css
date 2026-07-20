@@ -2027,3 +2027,251 @@ a {
     grid-row: span 1;
   }
 }
+
+/* School Issued Memorandums */
+
+.memorandum-listing {
+  display: grid;
+  gap: 28px;
+}
+
+.memorandum-heading {
+  max-width: 760px;
+}
+
+.memorandum-lead {
+  margin: 14px 0 0;
+  color: var(--sub-muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.memorandum-table-wrap {
+  overflow: hidden;
+  border: 3px solid var(--sub-line);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.memorandum-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.memorandum-table thead {
+  background: var(--sub-peach);
+}
+
+.memorandum-table th {
+  padding: 16px 18px;
+  border-bottom: 3px solid var(--sub-line);
+  color: var(--sub-ink);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.memorandum-table td {
+  padding: 18px;
+  border-bottom: 1px solid rgba(47, 47, 53, 0.12);
+  vertical-align: top;
+  color: var(--sub-muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.memorandum-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.memorandum-table tbody tr {
+  transition: background-color 160ms ease;
+}
+
+.memorandum-table tbody tr:hover {
+  background: rgba(255, 240, 231, 0.55);
+}
+
+.memorandum-number {
+  display: inline-block;
+  min-width: 9rem;
+  color: var(--sub-ink);
+  font-size: 0.82rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.memorandum-title {
+  display: block;
+  max-width: 42ch;
+  color: var(--sub-ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.memorandum-date {
+  display: inline-block;
+  min-width: 8.5rem;
+  color: var(--sub-muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.memorandum-category {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 5px 10px;
+  border: 2px solid var(--sub-line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--sub-ink);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.memorandum-category--designation-order {
+  background: rgba(115, 87, 220, 0.12);
+  color: #4c33a8;
+}
+
+.memorandum-category--assessment,
+.memorandum-category--examination {
+  background: rgba(24, 166, 96, 0.12);
+  color: #0f7a49;
+}
+
+.memorandum-category--learning-action-cell-lac-session,
+.memorandum-category--learning-action-cell,
+.memorandum-category--orientation {
+  background: rgba(255, 210, 54, 0.28);
+  color: #7a5d00;
+}
+
+.memorandum-category--performance-review,
+.memorandum-category--performance-evaluation,
+.memorandum-category--awarding {
+  background: rgba(128, 0, 32, 0.1);
+  color: #800020;
+}
+
+.memorandum-category--meeting {
+  background: rgba(47, 47, 53, 0.08);
+  color: #34343f;
+}
+
+.memorandum-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 2px solid var(--sub-line);
+  border-radius: 4px;
+  background: var(--sub-yellow);
+  color: var(--sub-ink);
+  font-size: 0.78rem;
+  font-weight: 900;
+  white-space: nowrap;
+  box-shadow: 3px 3px 0 rgba(47, 47, 53, 0.12);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.memorandum-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 4px 4px 0 rgba(47, 47, 53, 0.14);
+}
+
+.memorandum-link-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.memorandum-unavailable {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 12px;
+  border: 2px dashed rgba(47, 47, 53, 0.28);
+  border-radius: 4px;
+  color: var(--sub-muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.memorandum-cards {
+  display: none;
+  gap: 16px;
+}
+
+.memorandum-card {
+  display: grid;
+  gap: 14px;
+  padding: 22px;
+  border: 3px solid var(--sub-line);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.memorandum-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.memorandum-card-title {
+  margin: 0;
+  color: var(--sub-ink);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.memorandum-card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 4px;
+  border-top: 1px solid rgba(47, 47, 53, 0.12);
+}
+
+.memorandum-empty h3 {
+  margin: 0 0 12px;
+  color: var(--sub-ink);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+@media (max-width: 900px) {
+  .memorandum-table-wrap {
+    display: none;
+  }
+
+  .memorandum-cards {
+    display: grid;
+  }
+}
+
+@media (max-width: 640px) {
+  .memorandum-card {
+    padding: 18px;
+  }
+
+  .memorandum-card-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
