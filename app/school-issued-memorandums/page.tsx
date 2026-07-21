@@ -33,13 +33,6 @@ const memorandums: Memorandum[] = [
     },
     {
         number: "SIM No. , s. 2026",
-        title: "MID-YEAR PERFORMANCE REVIEW FOR SCHOOL YEAR 2025-2026",
-        date: "January 23, 2026",
-        category: "Performance Review",
-        href: "https://drive.google.com/file/d/1uKm2uWym5C4H1pgbVwL5HZfA5rr0l5Sr/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
         title: "DESIGNATION ORDER FOR THE COMPOSITION OF THE BIDS AND AWARDS COMMITTEE (BAC), SCHOOL INSPECTORATE TEAM (SIT), AND SCHOOL PROPERTY CUSTODIAN",
         date: "February 11, 2026",
         category: "Designation Order",
@@ -47,94 +40,31 @@ const memorandums: Memorandum[] = [
     },
     {
         number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1wq9EmKR_PmIGq9CZ0Hlva4fkkyBvyprV/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1TGCYz7Nl6o27ugpOzADpsPdOHacBTB1N/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1riJ_9HkKhcIjKIBQg82sF8qyxg7Pnxp4/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1eS9t0BmEjfY2KUJNOE69Md4etpgsilod/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
+        title: "DESIGNATION OF SCHOOL GRIEVANCE COMMITTEE COMPOSITION ",
+        date: "January 22, 2026",
+        category: "School Events",
         href: "https://drive.google.com/file/d/1oyfyLvHl5u5hzPYss7ofbFCIJSskGkk2/view?usp=drive_link",
     },
     {
         number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1oyfyLvHl5u5hzPYss7ofbFCIJSskGkk2/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1pV1ByWpfHereBU737lWA2cG5p9xbh_XV/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
+        title: "DESIGNATION OF SCHOOL DRRM COORDINATOR, ALTERNATE, AND UPDATED  SCHOOL DRRM TEAM COMPOSITION ",
+        date: "April 20, 2026",
+        category: "School Coordinatorship",
         href: "https://drive.google.com/file/d/1PqYyuSHQNHRLNKLz0892lZgA_YdV46nk/view?usp=drive_link",
     },
     {
         number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
+        title: "TRANSMITTAL  OF  THE  FY  2025  CLIENT  SATISFACTION MEASUREMENT (CSM) RESULTS",
+        date: "January 30, 2026",
+        category: "Client Satisfaction",
         href: "https://drive.google.com/file/d/1mJANQNFL0Tr3ClpxA9PAdu8D8_QVC4Pu/view?usp=drive_link",
     },
     {
         number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1EDkBqQrvzQEvt4Ubp2kTPoMXkw02KrRl/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1k5pcqa2KKcOHZWDS0RJO2o5ZZst7Dgdd/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1u-H-PJfXWoqRsgMQqCWjNP47iOBU3gSZ/view?usp=drive_link",
-    },
-    {
-        number: "SIM No. , s. 2026",
-        title: "ADMINISTRATION OF END-OF-SCHOOL-YEAR (EOSY) ASSESSMENT FOR SCHOOL YEAR 2025 - 2026",
-        date: "February 3, 2026",
-        category: "Assessment",
-        href: "https://drive.google.com/file/d/1S8lpWL3ZmGEHfuMZalt4T1mk5u3tN1yC/view?usp=drive_link",
+        title: "MID-YEAR PERFORMANCE REVIEW FOR SCHOOL YEAR 2025-2026",
+        date: "January 23, 2026",
+        category: "Performance Review",
+        href: "https://drive.google.com/file/d/1uKm2uWym5C4H1pgbVwL5HZfA5rr0l5Sr/view?usp=drive_link",
     },
     {
         number: "SIM No. , s. 2026",
@@ -146,7 +76,7 @@ const memorandums: Memorandum[] = [
     {
         number: "SIM No. , s. 2025",
         title: "Performance Review and Christmas Party for School Year 2025 - 2026",
-        date: "December 19, 2025",
+        date: "December 12, 2025",
         category: "Performance Evaluation",
         href: "https://drive.google.com/file/d/1_EFrFfs9egOEGtdxtvWdJacNvG2FZ19w/view?usp=drive_link",
     },
@@ -157,6 +87,34 @@ const memorandums: Memorandum[] = [
         category: "Learning Action Cell",
         href: "https://drive.google.com/file/d/1XybqMYHiYXMzN6PJE-prC4b5HjKrCgEt/view?usp=drive_link",
     },
+    {
+        number: "SIM No. , s. 2026",
+        title: "Designation In-Charge",
+        date: "November 24, 2025",
+        category: "Assessment",
+        href: "https://drive.google.com/file/d/1S8lpWL3ZmGEHfuMZalt4T1mk5u3tN1yC/view?usp=drive_link",
+    },
+    {
+        number: "SIM No. , s. 2026",
+        title: "Teachers' Meeting / Conference",
+        date: "November 3, 2025",
+        category: "Teachers' Meeting",
+        href: "https://drive.google.com/file/d/1EDkBqQrvzQEvt4Ubp2kTPoMXkw02KrRl/view?usp=drive_link",
+    },
+    {
+        number: "SIM No. , s. 2026",
+        title: "Teachers’ Meeting/Conference, District Athletic Meet, Updates on School-Based Feeding Program",
+        date: "October 6, 2025",
+        category: "Teachers' Meeting",
+        href: "https://drive.google.com/file/d/1u-H-PJfXWoqRsgMQqCWjNP47iOBU3gSZ/view?usp=drive_link",
+    },
+    {
+        number: "SIM No. , s. 2026",
+        title: "First Quarter Periodical Examination",
+        date: "August 16, 2025",
+        category: "Examination",
+        href: "https://drive.google.com/file/d/1k5pcqa2KKcOHZWDS0RJO2o5ZZst7Dgdd/view?usp=drive_link",
+    },
   
    
 
@@ -164,9 +122,29 @@ const memorandums: Memorandum[] = [
     
 ];
 
-const sortedMemorandums = [...memorandums].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-);
+function getMemorandumTimestamp(date: string) {
+    const timestamp = Date.parse(date);
+    return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+function sortMemorandumsByDate(items: Memorandum[]) {
+    return [...items].sort((a, b) => {
+        const dateDifference = getMemorandumTimestamp(b.date) - getMemorandumTimestamp(a.date);
+
+        if (dateDifference !== 0) {
+            return dateDifference;
+        }
+
+        return a.title.localeCompare(b.title);
+    });
+}
+
+const sortedMemorandums = sortMemorandumsByDate(memorandums);
+
+function getMemorandumKey(memo: Memorandum, index: number) {
+    const base = memo.href ?? `${memo.number}-${memo.title}-${memo.date}`;
+    return `${base}-${index}`;
+}
 
 function categorySlug(category: string) {
     return category
@@ -245,8 +223,8 @@ export default function SchoolIssuedMemorandumsPage() {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {sortedMemorandums.map((memo) => (
-                                        <tr key={`${memo.number}-${memo.title}`}>
+                                    {sortedMemorandums.map((memo, index) => (
+                                        <tr key={getMemorandumKey(memo, index)}>
                                             <td data-label="Memo No.">
                                                 <span className="memorandum-number">{memo.number}</span>
                                             </td>
@@ -275,9 +253,9 @@ export default function SchoolIssuedMemorandumsPage() {
                         </div>
 
                         <div className="memorandum-cards" aria-label="Memorandum listing cards">
-                            {sortedMemorandums.map((memo) => (
+                            {sortedMemorandums.map((memo, index) => (
                                 <article
-                                    key={`card-${memo.number}-${memo.title}`}
+                                    key={`card-${getMemorandumKey(memo, index)}`}
                                     className="memorandum-card"
                                 >
                                     <div className="memorandum-card-top">
